@@ -19,7 +19,7 @@ public class ObserverApplication {
 	
 	@PostConstruct
     public void init() {
-        emailService.process();
+        emailService.register();
     }
 
 }
